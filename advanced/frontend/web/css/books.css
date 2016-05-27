@@ -1,0 +1,44 @@
+/*
+	Êé¿âÑùÊ½
+	Liye
+*/
+	#wp { width: 100%; }
+	.tag-box { margin: 0 auto; width: 980px; }
+	.gl_nav { color: #666666; line-height: 30px; margin-bottom: 10px; margin-top: 30px; }
+	.gl_nav span { color: #000; float: left; font-size: 18px; }
+	.gl_wrap { border-bottom: 1px dashed #E3E3E3; margin-top: 5px; overflow: hidden; padding-bottom: 8px; width: 980px; }
+	.gl_wrap h3 { color: #000; float: left; font-size: 16px; font-weight: normal; line-height: 18px; margin-top: 7px; }
+	.gl_wrap ol { display: inline; float: left; height: 28px; margin-left: 20px; overflow: hidden; width: 800px; }
+	.gl_wrap ol li { display: inline; float: left; height: 22px; margin-left: 5px; margin-top: 5px; white-space: nowrap; }
+	.gl_wrap ol li a { color: #666666; display: block; float: left; height: 22px; line-height: 22px; padding: 0 8px; }
+	.gl_wrap ol li a:hover { color: #ff9306; text-decoration: none; }
+	.gl_wrap ol li .on, .gl_wrap ol li .on a { color: #FFF !important; background-color: #ff9306; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+	.gl_wrap span { float: right; height: 16px; margin-left: 10px; margin-top: 7px; width: 42px; }
+	.gl_wrap span a { background: url("../images/ms.png") no-repeat 0 0; display: block; height: 16px; overflow: hidden; text-indent: -10000px; width: 42px; }
+	.gl_wrap span a:hover { background: url("../images/ms.png") no-repeat -43px 0; }
+	.gl_wrap span a.sp_toggle { background: url("../images/ms.png") no-repeat 0 -17px; }
+	.gl_wrap span a.sp_toggle:hover { background: url("../images/ms.png") no-repeat -43px -17px; }
+	.m-find { margin: 20px 0 0 435px; width: 100px; }
+	.m-find button { display: block; cursor: pointer; text-align: center; color: #FF9306; width: 98px; height: 32px; line-height: 32px; border: 1px solid #FF9306; font-size: 16px; border-radius: 2px; background-color: #fff; }
+	.m-find button:hover { text-decoration: none; background-color: #FF9306; color: #FFF; }
+	.msg_number { color: #666; height: 30px; line-height: 30px; margin-top: 20px; text-align: left; width: 980px; }
+	.msg_number .number_color { color: #666; margin: 0 10px; }
+	.m-box { float: left; width: 100%; background: #fdfdfd; height: auto; }
+	.m-box .m-list { width: 980px; height: auto; margin: 0 auto; }
+	.m-list .m-detail { height: 284px; margin: 25px 0 55px; position: relative; }
+	.m-detail .book-info { margin: 0 0 15px 210px; position: relative; z-index: 10; }
+	.m-detail .book-txt { background-color: #F8F9F9; border: 1px solid #F4F5ED; height: 120px; padding: 10px; }
+	.book-txt-l { margin-left: 200px; width: 750px; line-height: 30px; }
+	.book-wrap { position: absolute; right: 50px; left: 0; width: 214px; text-align: center; top: -20px; z-index: 11; }
+	.book-wrap a { border-radius: 4px;  }
+	.book-wrap .book-img { display: block; height: 270px; position: relative; width: 214px; }
+	.book-wrap img { height: 234px; margin: 16px 19px; width: 176px; vertical-align: middle; border: none; box-shadow: 0 1px 4px rgba(40, 40, 40, 0.6); }
+	.book-wrap .read-btn { background: none repeat scroll 0 0 #ff9306; color: #fff; display: inline-block; font-size: 16px; height: 32px; line-height: 32px; margin-right: 4px; text-align: center; width: 110px; }
+	.book-wrap .add-btn { background: #FF9306; color:#fff; font-size: 16px; display: inline-block; height: 29px; line-height: 29px; text-align: center; width: 95px; border: 1px solid #FF9306; }
+	.book-wrap .read-btn:hover, .book-wrap .add-btn:hover { background-color: #fdb454; text-decoration: none; color: #FFF; }
+	.book-info .book-title { color: #000; display: block; font-size: 21px; margin-bottom: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 550px; }
+	.book-info p { height: 30px; line-height: 30px; color: #666; }
+	.book-info .book-author a { color: #000; }
+	.book-info .book-post { margin-left: 50px; }
+	.book-info .new-chapter { margin-left: 50px; }
+	.book-info .new-chapter a { color: #666; }

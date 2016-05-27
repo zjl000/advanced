@@ -1,0 +1,64 @@
+* { word-wrap: break-word; }
+body { background-color: #efe0cb; }
+.m-wrap { width: 204px; height: 600px; position: fixed; top: 0; left: 0; background-color: #efe0cb; -moz-transition: width 200ms linear 0s; -webkit-transition: width 200ms linear 0s; transition: width 200ms linear 0s; }
+.m-wrap a { outline: 0 none; }
+.m-wrap .m-back { width: 176px; margin: 30px 0 10px 28px; position: relative; z-index: 1; }
+.m-wrap .m-back a { display: block; height: 76px; background: url('../images/sidebar_logo.png') no-repeat; }
+.m-wrap .m-inner { height: 100%; margin-left: 20px; overflow: hidden; }
+.m-wrap .m-inner .m-area { width: 184px; }
+.m-wrap .pay-end {
+	background-image: url("../images/tb-bg.png");
+    background-position: 0 -36px;
+    background-repeat: no-repeat;
+    height: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.m-wrap .m-boundary { width: 46px; height: 100%; background-color: #efe0cb; background-image: url('../images/tb-bg.png'); background-repeat: no-repeat; background-position: -212px 0px; position: absolute; top: 0; right: 0; }
+.m-wrap .m-boundary .switchs { display: block; background: url('../images/tb-bg.png') no-repeat; background-position: -286px -448px; position: absolute; top: 300px; left: 45px; margin-top: -26px; width: 20px; height: 52px; }
+.m-wrap .m-boundary .switchs:hover { background-position: -348px -448px; }
+.m-wrap .book-info { margin-left: 26px; margin-bottom: 10px; position: relative; }
+.m-wrap .book-info .book-title { width: 110px; color: #666; font-size: 16px; margin-bottom: 5px; padding-left: 2px; }
+.m-wrap .book-info .book-cover { margin-bottom: 5px; }
+.m-wrap .book-info .cover-img { width: 112px; height: 148px; }
+img {
+    vertical-align: middle;
+	border: 0 none;
+}
+.m-wrap .book-info .book-author { width: 110px; color: #666; padding-left: 2px; }
+.m-wrap .book-info .book-author a { color: #000; }
+.m-wrap .book-comment { height: 30px; line-height: 30px; margin-left: 26px; }
+.m-wrap .book-comment a { display: block; padding-left: 30px; background: url('../images/tb-bg.png') no-repeat;  background-position: -22px -86px; color: #666; }
+.hide-pay-area {
+    width: 46px;
+}
+.hide-pay-area .m-boundary .switchs {
+    background-position: -286px -448px;
+}
+.hide-pay-area .m-boundary .switchs:hover {
+    background-position: -348px -448px;
+}
+.hide-pay-area .book-info, .hide-pay-area .pay-end, .hide-pay-area .book-comment {
+    display: none;
+}
+.m-area .read-nav { margin-top: 30px; margin-left: 20px; }
+.read-nav li { width: 110px; height: 30px; line-height: 30px; border: 1px solid #c3c2bf; margin-bottom: 8px; text-align: center; font-size: 16px; }
+.read-nav li a { display: block; width: 110px; height: 30px; color:#666; }
+.read-nav a:hover, .read-nav .active a { background-color: #fa652a; color: #fff; text-decoration: none; }
+.m-area .fenge { width: 152px; height: 2px; margin: 35px 0px; background: url('../images/cover_imgs.png') no-repeat; background-position: -14px -89px; }
+.m-area .read-btn { margin-left: 20px; }
+.read-btn li { width: 110px; height: 30px; line-height: 30px; margin-bottom: 10px; font-size: 16px; }
+.read-btn .fang { background: url('../images/cover_imgs.png') no-repeat; background-position: -26px -228px; }
+.read-btn .cha { background: url('../images/cover_imgs.png') no-repeat; background-position: -26px -278px; }
+.read-btn .ping { background: url('../images/cover_imgs.png') no-repeat; background-position: -26px -328px; }
+.read-btn .ping span { color: #fa652a; }
+.read-btn .fan { background: url('../images/cover_imgs.png') no-repeat; background-position: -26px -378px; }
+.read-btn li a { display: block; width: 80px; padding-left: 30px; color: #666; text-align: left; }
+
+#m-cover { width: 490px; position: absolute; top: 80px; left: 50%; margin-left: -245px; z-index: 1; }
+#m-cover a { display: block; height: 645px; background: url('../images/cover_bg.png') no-repeat; background-position: 0 0; }
+#m-cover img { width: 477px; height: 634px; position: relative; top: 4px; left: 4px; }
+
+#begin-read { position: absolute; top: 130px; left: 50%; margin-left: 238px; width: 128px; }
+#begin-read a { display: block; line-height: 50px; background-color: #ff9306; color: #fff; font-size: 20px; text-align: center; margin-bottom: 20px; border-radius: 3px; }
+#begin-read a:hover { text-decoration: none; background-color: #ffaa06; }
